@@ -25,7 +25,7 @@ function onMouseMove(event){
 
     } else {
         ctx.lineTo(x, y);
-        ctx.stroke()
+        ctx.stroke() // 마우스 움직이는 내내 발생.
     }
 }
 
